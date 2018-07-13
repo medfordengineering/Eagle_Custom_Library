@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -379,6 +379,10 @@
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.127" layer="21"/>
 <text x="-5.08" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-25.4" y1="-2.54" x2="25.4" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="22.86" x2="25.4" y2="22.86" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-2.54" x2="-25.4" y2="22.86" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-2.54" x2="25.4" y2="22.86" width="0.127" layer="21"/>
 </package>
 <package name="4-HOLE-LARGE">
 <pad name="P$1" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
@@ -917,38 +921,38 @@ Looking footprint for headers.
 <wire x1="-21.59" y1="43.18" x2="-36.83" y2="43.18" width="0.127" layer="51"/>
 <wire x1="-36.83" y1="43.18" x2="-36.83" y2="45.72" width="0.127" layer="51"/>
 <wire x1="-36.83" y1="45.72" x2="-21.59" y2="45.72" width="0.127" layer="51"/>
-<pad name="RES" x="-5.334" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="RES" x="-5.08" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="3.3V" x="-7.62" y="44.45" drill="1.016" shape="long" rot="R270"/>
-<pad name="5V" x="-10.414" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="5V" x="-10.16" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="GND@0" x="-12.7" y="44.45" drill="1.016" shape="long" rot="R270"/>
-<pad name="GND@1" x="-15.494" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="GND@1" x="-15.24" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="VIN" x="-17.78" y="44.45" drill="1.016" shape="long" rot="R270"/>
-<pad name="A0" x="-23.114" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="A0" x="-22.86" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="A1" x="-25.4" y="44.45" drill="1.016" shape="long" rot="R270"/>
-<pad name="A2" x="-28.194" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="A2" x="-27.94" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="A3" x="-30.48" y="44.45" drill="1.016" shape="long" rot="R270"/>
-<pad name="A4" x="-33.274" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="A4" x="-33.02" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="A5" x="-35.56" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <pad name="RX" x="-35.56" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="TX" x="-32.766" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="TX" x="-33.02" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="D2" x="-30.48" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="D3" x="-27.686" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="D3" x="-27.94" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="D4" x="-25.4" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="D5" x="-22.606" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="D5" x="-22.86" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="D6" x="-20.32" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="D7" x="-17.526" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="D7" x="-17.78" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="D8" x="-13.97" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="D9" x="-11.176" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="D9" x="-11.43" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="D10" x="-8.89" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="D11" x="-6.096" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="D11" x="-6.35" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="D12" x="-3.81" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="D13" x="-1.016" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="D13" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="GND@2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R270"/>
-<pad name="AREF" x="4.064" y="-3.81" drill="1.016" shape="long" rot="R270"/>
+<pad name="AREF" x="3.81" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="SDA" x="6.35" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="SCL" x="8.89" y="-3.81" drill="1.016" shape="long" rot="R270"/>
 <pad name="IOREF" x="-2.54" y="44.45" drill="1.016" shape="long" rot="R270"/>
-<pad name="NC" x="-0.254" y="44.45" drill="1.016" shape="long" rot="R270"/>
+<pad name="NC" x="0" y="44.45" drill="1.016" shape="long" rot="R270"/>
 <wire x1="-34.29" y1="15.875" x2="-34.925" y2="15.24" width="0.254" layer="51"/>
 <wire x1="-34.925" y1="15.24" x2="-38.735" y2="15.24" width="0.254" layer="51"/>
 <wire x1="-38.735" y1="15.24" x2="-39.37" y2="15.875" width="0.254" layer="51"/>
@@ -964,6 +968,21 @@ Looking footprint for headers.
 <text x="19.304" y="20.32" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
 <text x="33.02" y="8.89" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="top-center">USB</text>
 <text x="27.94" y="38.1" size="0.8128" layer="51" font="vector" ratio="20" rot="R90" align="top-center">PWR JACK</text>
+</package>
+<package name="POTENTIOMETER">
+<pad name="P$1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="P$2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="P$3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-4.826" y1="-5.08" x2="4.826" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-4.826" x2="5.08" y2="4.826" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-4.826" x2="-5.08" y2="4.826" width="0.127" layer="21"/>
+<wire x1="-4.826" y1="5.08" x2="4.826" y2="5.08" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1339,6 +1358,17 @@ Looking footprint for headers.
 <connect gate="G$1" pin="SCL" pad="P$4"/>
 <connect gate="G$1" pin="SDA" pad="P$3"/>
 <connect gate="G$1" pin="VCC" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OUTLINE" package="4DIGITDISPLAY">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SCL" pad="4"/>
+<connect gate="G$1" pin="SDA" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
